@@ -18,10 +18,13 @@
   .sym {
     width: auto;
     height: 0.438em;
-    margin-bottom: 0.1em;
+    //margin-bottom: 0.1em;
     vertical-align: middle;
-    path {
-      fill: currentColor;
-    }
+    //transform: scale(1.5); 
+    transform-origin: center;
+    //margin-right: 0.2em;
+    // path {
+    //   fill: currentColor;
+    // }
   }
 }

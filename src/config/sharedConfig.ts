@@ -40,7 +40,7 @@ export const links: NetworkUrlType[] = [
   {
     id: 'testnet',
     name: 'Testnet',
-    url: 'https://testnet-explorer.multiversx.com'
+    url: 'https://testnet-explorer.cyber.network',
   },
   {
     id: 'devnet',

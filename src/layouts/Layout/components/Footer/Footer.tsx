@@ -21,7 +21,7 @@ export const Footer = () => {
         >
           Made with{' '}
           <FontAwesomeIcon icon={faHeart} className='text-danger mx-1' />
-          by the MultiversX team
+          by the Cyberdeck Studios team
         </a>
       </div>
       {explorerVersion && (

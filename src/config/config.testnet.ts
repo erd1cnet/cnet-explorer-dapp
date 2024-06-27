@@ -7,14 +7,14 @@ export const networks: NetworkType[] = [
     default: true,
     id: 'testnet',
     name: 'Testnet',
-    chainId: 'T',
+    chainId: 'local-testnet',
     adapter: 'api',
     theme: 'testnet',
-    egldLabel: 'xEGLD',
+    egldLabel: 'xCNET',
     walletAddress: 'https://testnet-wallet.multiversx.com',
     explorerAddress: 'https://testnet-explorer.multiversx.com',
     nftExplorerAddress: 'https://testnet.xspotlight.com',
-    apiAddress: 'https://testnet-api.multiversx.com'
+    apiAddress: 'https://testnet-api.cyber.network/'
   }
 ];
 
@@ -25,7 +25,7 @@ export const multiversxApps = allApps([
   },
   {
     id: 'explorer',
-    url: 'http://testnet-explorer.multiversx.com'
+    url: 'https://testnet-explorer.cyber.network'
   },
   {
     id: 'xspotlight',
