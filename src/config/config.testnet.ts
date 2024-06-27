@@ -41,4 +41,4 @@ networks.forEach((network) => {
   schema.validate(network, { strict: true }).catch(({ errors }) => {
     console.error(`Config invalid format for ${network.id}`, errors);
   });
-});
+});    chainId: 'local-testnet',
