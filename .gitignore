@@ -74,3 +74,5 @@ dist-ssr
 cypress/reports/
 cypress/screenshots/
 cypress/videos/
+# Local Netlify folder
+.netlify
