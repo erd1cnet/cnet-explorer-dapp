@@ -48,6 +48,7 @@ dist-ssr
 !/src/config.devnet.ts
 !/src/config.devnet-old.ts
 !/src/config.testnet.ts
+!/src/config/index.ts
 !/src/config.mainnet.ts
 !/src/config.multiple.ts
 /src/interceptors/*
