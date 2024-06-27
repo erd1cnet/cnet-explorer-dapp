@@ -11,8 +11,8 @@ export const networks: NetworkType[] = [
     adapter: 'api',
     theme: 'testnet',
     egldLabel: 'xCNET',
-    walletAddress: 'https://testnet-wallet.multiversx.com',
-    explorerAddress: 'https://testnet-explorer.multiversx.com',
+    walletAddress: 'https://testnet-wallet.cyber.network',
+    explorerAddress: 'https://testnet-explorer.cyber.network',
     nftExplorerAddress: 'https://testnet.xspotlight.com',
     apiAddress: 'https://testnet-api.cyber.network'
   }
@@ -21,7 +21,7 @@ export const networks: NetworkType[] = [
 export const multiversxApps = allApps([
   {
     id: 'wallet',
-    url: 'https://testnet-wallet.multiversx.com'
+    url: 'https://testnet-wallet.cyber.network'
   },
   {
     id: 'explorer',
