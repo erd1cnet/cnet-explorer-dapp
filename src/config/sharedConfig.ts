@@ -33,19 +33,9 @@ export const SHARE_PREFIX = process.env.VITE_APP_SHARE_PREFIX
 
 export const links: NetworkUrlType[] = [
   {
-    id: 'mainnet',
-    name: 'Mainnet',
-    url: 'https://explorer.multiversx.com'
-  },
-  {
     id: 'testnet',
     name: 'Testnet',
     url: 'https://testnet-explorer.multiversx.com'
-  },
-  {
-    id: 'devnet',
-    name: 'Devnet',
-    url: 'https://devnet-explorer.multiversx.com'
   }
 ];
 
@@ -54,7 +44,7 @@ export const allApps = (apps?: AppLinksType[]): AppLinksType[] => {
     {
       id: 'main-site',
       name: 'Main site',
-      url: 'https://multiversx.com'
+      url: 'https://cyber.network'
     },
     {
       id: 'wallet',
@@ -67,29 +57,9 @@ export const allApps = (apps?: AppLinksType[]): AppLinksType[] => {
       url: 'http://explorer.multiversx.com'
     },
     {
-      id: 'xexchange',
-      name: 'xExchange',
-      url: 'https://xexchange.com'
-    },
-    {
-      id: 'xlaunchpad',
-      name: 'xLaunchpad',
-      url: 'https://xlaunchpad.com'
-    },
-    {
-      id: 'xspotlight',
-      name: 'xSpotlight',
-      url: 'https://xspotlight.com'
-    },
-    {
-      id: 'bridge',
-      name: 'Bridge',
-      url: 'https://bridge.multiversx.com'
-    },
-    {
       id: 'docs',
       name: 'Docs',
-      url: 'https://docs.multiversx.com'
+      url: 'https://docs.cyber.network'
     }
   ];
 

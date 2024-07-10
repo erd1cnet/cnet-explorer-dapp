@@ -19,7 +19,7 @@ export const Footer = () => {
           rel='noopener noreferrer nofollow'
           target='_blank'
           className='d-flex align-items-center text-neutral-400'
-          href='https://multiversx.com/'
+          href='https://cyber.network/'
         >
           Made with{' '}
           <FontAwesomeIcon icon={faHeart} className='text-danger mx-1' />

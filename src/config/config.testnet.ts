@@ -10,22 +10,22 @@ export const networks: NetworkType[] = [
     chainId: 'T',
     adapter: 'api',
     theme: 'testnet',
-    egldLabel: 'xEGLD',
-    walletAddress: 'https://testnet-wallet.multiversx.com',
-    explorerAddress: 'https://testnet-explorer.multiversx.com',
+    egldLabel: 'xCNET',
+    walletAddress: 'https://testnet-wallet.cyber.network',
+    explorerAddress: 'https://testnet-explorer.cyber.network',
     nftExplorerAddress: 'https://testnet.xspotlight.com',
-    apiAddress: 'https://testnet-api.multiversx.com'
+    apiAddress: 'https://testnet-api.cyber.network'
   }
 ];
 
 export const multiversxApps = allApps([
   {
     id: 'wallet',
-    url: 'https://testnet-wallet.multiversx.com'
+    url: 'https://testnet-wallet.cyber.network'
   },
   {
     id: 'explorer',
-    url: 'http://testnet-explorer.multiversx.com'
+    url: 'http://testnet-explorer.cyber.network'
   },
   {
     id: 'xspotlight',
@@ -33,7 +33,7 @@ export const multiversxApps = allApps([
   },
   {
     id: 'bridge',
-    url: 'https://testnet-bridge.multiversx.com'
+    url: 'https://testnet-bridge.cyber.network'
   }
 ]);
 
