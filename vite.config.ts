@@ -44,7 +44,7 @@ export default ({ mode }) => {
       port: 3002,
       strictPort: true,
       https: shouldUseTSL,
-      host: 'localhost',
+      host: true,
       hmr: {
         overlay: false
       },
