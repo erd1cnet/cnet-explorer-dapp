@@ -7,7 +7,7 @@ export const networks: NetworkType[] = [
     default: true,
     id: 'testnet',
     name: 'Testnet',
-    chainId: 'local-testnet',
+    chainId: '55',
     adapter: 'api',
     theme: 'testnet',
     egldLabel: 'xCNET',
@@ -41,4 +41,4 @@ networks.forEach((network) => {
   schema.validate(network, { strict: true }).catch(({ errors }) => {
     console.error(`Config invalid format for ${network.id}`, errors);
   });
-});    chainId: 'local-testnet',
+});   
