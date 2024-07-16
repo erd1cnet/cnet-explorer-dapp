@@ -65,7 +65,7 @@ export const Collections = () => {
         page,
         size,
         type,
-        sort: 'verifiedAndHolderCount'
+        //sort: 'verifiedAndHolderCount'
       }),
       getCollectionsCount({ search, type })
     ]).then(([collectionsData, count]) => {
